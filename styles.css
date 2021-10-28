@@ -78,6 +78,7 @@
         top: 90%;
         bottom: 88.26%;
     }
+
 .saludo{
     position: absolute;
     width: 30px;
@@ -146,15 +147,18 @@
 
     }
 
-.foto
+.image-profile
     {
+        background: url(images/bullet_points.png)no-repeat left bottom;
         position: absolute;
-        width: 406px;
-        height: 406px;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
         right: 176px;
         top: 100px;
         z-index: 1;
     }
+
 .button1
     {
 
@@ -383,6 +387,13 @@
 
         text-transform: capitalize;
     }
+
+.port-sizing
+    {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+    }
 .port-1
     {
         position: absolute;
@@ -390,6 +401,8 @@
         height: 300px;
         left: 231px;
         top: 100px;
+
+        flex-direction: row;
     }
 
 .port-2
@@ -435,6 +448,7 @@
         height: 300px;
         left: 899px;
         top: 420px;
+    
     }    
 .opinion
     {  
@@ -1093,3 +1107,28 @@
         top: 45%;
         bottom: 1.59%;
     }
+
+
+	Small devices (portrait tablets and large phones, 600px and up)
+	@media only screen and (min-width: 600px) 
+        {
+
+        }
+
+	Medium devices (landscape tablets, 768px and up)
+	@media only screen and (min-width: 768px) 
+        {
+
+        }
+	
+	Large devices (laptops/desktops, 992px and up)
+	@media only screen and (min-width: 992px) 
+        {
+
+        }
+
+	Extra large devices (large laptops and desktops, 1200px and up)
+	@media only screen and (min-width: 1200px) 
+        {
+            
+        }
