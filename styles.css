@@ -1,6 +1,7 @@
 .body
     {
         background: #E5E5E5;
+        font-family: 'Times New Roman', Times, serif;
     }
 
 	@media only screen and (min-width: 375px) 
@@ -330,36 +331,29 @@
                 line-height: 50px;
                 color: rgba(34, 34, 34, 0.5);;
             }
-            .card-box1
+            .card-box
             {
                 position: absolute;
                 width: 250px;
-                height: 100px;
+                height: 900px;
                 left: -20px;
+            }
+            #top-1
+            {   
+                position: absolute;     
                 top: 120px;
             }
-            .card-box2
-            {
+            #top-2
+            {   
                 position: absolute;
-                width: 250px;
-                height: 90px;
-                left: -20px;
                 top: 750px;
             }
-            .card-box3
+            #top-3
             {
-                position: absolute;
-                width: 250px;
-                height: 90px;
-                left: -20px;
                 top: 1400px;
             }
-            .card-box4
+            #top-4
             {
-                position: absolute;
-                width: 250px;
-                height: 90px;
-                left: -20px;
                 top: 1600px;
             }
             .portafolio
@@ -397,67 +391,44 @@
 
                 text-transform: capitalize;
             }
-            .port-1
-            {
-                position: absolute;
-                width: 0px;
-                height: 0px;
-                left: 231px;
-                top: 100px;
-            
-                box-sizing: border-box;
-            }
-            .port-2
+            .port-size
             {
                 position: absolute;
                 width: 340px;
                 height: 320px;
-                left: 80px;
-                top: 100px; 
 
                 box-sizing: border-box;
-            }       
-            .port-3
+            }
+            #port-pos1
             {
-                position: absolute;
-                width: 340px;
-                height: 320px;
+                left: 231px;
+                top: 100px;
+            }
+            #port-pos2
+            {
+                left: 80px;
+                top: 100px; 
+            }       
+            #port-pos3
+            {
                 left: 450px;
                 top: 100px;
-            
-                box-sizing: border-box;
             }
-            .port-4
+            #port-pos4
             {
-                position: absolute;
-                width: 0px;
-                height: 0px;
                 left: 231px;
                 top: 420px;
-            
-                box-sizing: border-box;
             }          
-            .port-5
+            #port-pos5
             {
-                position: absolute;
-                width: 340px;
-                height: 320px;
                 left: 80px;
                 top: 450px;
-            
-                box-sizing: border-box;
             }
-            .port-6
+            #port-pos6
             {
-                position: absolute;
-                width: 340px;
-                height: 320px;
                 left: 450px;
-                top: 450px;
-            
-                box-sizing: border-box;    
+                top: 450px; 
             }    
-            
             .opinion
             {   
                 position: absolute;
